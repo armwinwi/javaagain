@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class TimeCalculator {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int d,h,m,s;
+        int d,h,m,s; //variable
         System.out.print("Enter The time (Second) : ");
         s = sc.nextInt();
         if (s>=86400) {
